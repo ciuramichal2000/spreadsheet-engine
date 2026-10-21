@@ -1,0 +1,8 @@
+Item,Price,Qty,Total,Note
+Pens,1.5,10,=B2*C2,
+Paper,4.25,4,=B3*C3,
+Ink,12,2,=B4*C4,"=IF(D4>20,""over 20"",""ok"")"
+,,Sum,=SUM(D2:D4),
+,,Average,=AVG(D2:D4),
+,,Priciest,=MAX(D2:D4),
+,,Share of ink,=D4/D5,
